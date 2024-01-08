@@ -1,0 +1,14 @@
+import React from "react";
+import { VscClose } from "react-icons/vsc";
+
+export default function Header() {
+  return (
+    <>
+      <div className="close-box">
+        <VscClose className="close-icon " color="white" />
+      </div>
+      <h2 className="doc-upload">Document Upload</h2>
+      <div />
+    </>
+  );
+}
