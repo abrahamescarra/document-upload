@@ -1,9 +1,23 @@
-import React from "react";
+import React, { ChangeEvent, useState } from "react";
 import "../styles/Body.css";
+import Select from "./Select";
+import { selectNameOptions } from "./consts";
+
 function Body() {
+  const [selectedOption, setSelectedOption] = useState(selectNameOptions[0]);
   return (
     <div className="body">
-      <div className="left-column"></div>
+      <div className="left-column">
+        <Select
+          options={selectNameOptions}
+          onChange={(event: ChangeEvent<HTMLSelectElement>) =>
+            setSelectedOption(event.target.value)
+          }
+          className="select-import-name"
+          selectedOption={selectedOption}
+        />
+        <div className="divider" />
+      </div>
       <div className="right-column"></div>
     </div>
   );
