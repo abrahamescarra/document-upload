@@ -1,6 +1,7 @@
 import React, { ChangeEvent, useState } from "react";
 import "../styles/Body.css";
 import Select from "./Select";
+import DragAndDrop from "./DragAndDrop";
 import { selectNameOptions } from "./consts";
 
 function Body() {
@@ -17,6 +18,7 @@ function Body() {
           selectedOption={selectedOption}
         />
         <div className="divider" />
+        <DragAndDrop />
       </div>
       <div className="right-column"></div>
     </div>

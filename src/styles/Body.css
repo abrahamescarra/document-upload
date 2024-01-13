@@ -10,6 +10,10 @@
   border-radius: 20px;
   width: 45%;
   margin-left: 8%;
+  justify-content: start;
+  align-items: start;
+  align-items: start;
+  text-align: start;
 }
 
 .right-column {
@@ -22,7 +26,7 @@
 
 .select-import-name {
   padding: 8px;
-  font-size: 16px;
+  font-size: 14px;
   border: 1px solid #cdcfdd;
   color: #1c3e6e;
   font-weight: bold;
@@ -41,6 +45,6 @@
 .divider {
   margin-top: 20px;
   margin-bottom: 20px;
-  border-bottom: 1px solid #cdcfdd;
+  border-bottom: 1px solid #dbdde7;
   width: 60%;
 }
