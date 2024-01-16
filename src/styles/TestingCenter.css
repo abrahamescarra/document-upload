@@ -1,0 +1,22 @@
+.testing-container {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.select-client {
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #cdcfdd;
+  color: #1c3e6e;
+  border-radius: 10px;
+  outline: none;
+  width: 31%;
+  cursor: pointer;
+  transition: border-color 0.3s ease-in-out;
+  height: fit-content;
+  margin-left: 15%;
+  margin-right: 3%;
+}

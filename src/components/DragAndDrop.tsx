@@ -1,7 +1,6 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import React, { useEffect, useState } from "react";
 import { FileWithPath, useDropzone } from "react-dropzone";
-import "../styles/Dropzone.css";
 import { FaFileAlt } from "react-icons/fa";
 import FileItem from "./FileItem";
 

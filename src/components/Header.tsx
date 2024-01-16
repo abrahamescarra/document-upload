@@ -1,6 +1,5 @@
 import React from "react";
 import { VscClose } from "react-icons/vsc";
-import "../styles/Header.css";
 
 export default function Header() {
   return (

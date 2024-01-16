@@ -1,5 +1,4 @@
 import React, { ChangeEventHandler } from "react";
-import "../styles/ToogleSwitch.css";
 import { CiClock2 } from "react-icons/ci";
 
 type Props = {
