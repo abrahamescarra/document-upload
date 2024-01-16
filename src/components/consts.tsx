@@ -23,7 +23,7 @@ export const testingCenters = [
 export const initialFormValues = {
   importName: "Select Import Name",
   splitSchedule: "Yes",
-  clientSelect: "Single",
+  clientSelect: "Multiple",
   testingCenter: "Select Client",
   testingCenters: [
     "Select Client",

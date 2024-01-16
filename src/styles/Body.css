@@ -9,7 +9,7 @@
 .left-column {
   border-radius: 20px;
   width: 45%;
-  margin-left: 8%;
+  margin-left: 9%;
   justify-content: start;
   align-items: start;
   text-align: start;
@@ -18,7 +18,7 @@
 .right-column {
   border-radius: 20px;
   width: 35%;
-  margin-right: 8%;
+  margin-right: 6%;
   justify-content: start;
   align-items: start;
   align-items: start;
@@ -31,7 +31,7 @@
   border: 1px solid #cdcfdd;
   color: #1c3e6e;
   font-weight: bold;
-  border-radius: 10px;
+  border-radius: 7px;
   outline: none;
   width: 100%;
   cursor: pointer;

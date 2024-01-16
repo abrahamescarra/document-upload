@@ -5,7 +5,11 @@ import { FaFileAlt } from "react-icons/fa";
 import FileItem from "./FileItem";
 
 let interval: string | number | NodeJS.Timer | undefined = undefined;
-function Dropzone() {
+type Props = {
+  onChange: Function;
+};
+
+function Dropzone({ onChange }: Props) {
   const [progress, setProgress] = useState(0);
   const [running, setRunning] = useState(false);
 
@@ -15,6 +19,7 @@ function Dropzone() {
         setProgress(0);
         setRunning(true);
       },
+      maxFiles: 1,
     });
 
   useEffect(() => {
@@ -33,6 +38,7 @@ function Dropzone() {
     if (progress === 100) {
       setRunning(false);
       clearInterval(interval);
+      onChange(acceptedFiles);
     }
   }, [progress]);
 

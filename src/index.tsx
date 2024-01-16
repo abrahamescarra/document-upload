@@ -8,6 +8,7 @@ import "./styles/Dropzone.css";
 import "./styles/Header.css";
 import "./styles/TestingCenter.css";
 import "./styles/ToogleSwitch.css";
+import "./styles/Footer.css";
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
 );

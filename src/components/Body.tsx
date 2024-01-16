@@ -6,14 +6,20 @@ import ToogleSwitch from "./ToogleSwitch";
 import RadioButton from "./RadioButton";
 import TestingCenter from "./TestingCenter";
 
-function Body() {
+type Props = {
+  onFilesChange: Function;
+};
+
+function Body({ onFilesChange }: Props) {
   const [formValues, setFormValues] = useState(initialFormValues);
   const [toogleOn, setToogleOn] = useState(false);
+
   const onFormValueChange = (
     event: ChangeEvent<HTMLSelectElement | HTMLInputElement>
   ) => {
     setFormValues({ ...formValues, [event.target.name]: event.target.value });
   };
+
   return (
     <div className="body">
       <div className="left-column">
@@ -25,7 +31,7 @@ function Body() {
           name="importName"
         />
         <div className="divider" />
-        <DragAndDrop />
+        <DragAndDrop onChange={onFilesChange} />
         <div className="divider" />
         <h5> Elapse Data Checking:</h5>
         <p

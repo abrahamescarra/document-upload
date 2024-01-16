@@ -1,0 +1,26 @@
+.footer-container {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+}
+.continue-btn {
+  border-radius: 5px;
+  border: 1px solid #1c3e6e;
+  width: 20%;
+  height: 45px;
+  background-color: #1c3e6e;
+  color: white;
+  padding: 8px;
+}
+.cancel-btn {
+  border-radius: 5px;
+  border: 2px solid #fa9d26;
+  width: 20%;
+  height: 45px;
+  color: #fa9d26;
+  background-color: white;
+  padding: 8px;
+  font-weight: 790;
+  margin-left: 20px;
+}
