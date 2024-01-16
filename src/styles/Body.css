@@ -44,7 +44,13 @@
 
 .divider {
   margin-top: 20px;
-  margin-bottom: 20px;
   border-bottom: 1px solid #dbdde7;
   width: 60%;
+}
+
+.vertical-divider {
+  margin-left: 15px;
+  padding-left: 15px;
+  border-left: 1px solid #1c3e6e;
+  height: 20px;
 }
